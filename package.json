@@ -13,10 +13,13 @@
     "storybook-addon-jsx": "^5.4.0"
   },
   "dependencies": {
+    "docz": "^0.12.5",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   },
   "scripts": {
-    "storybook": "start-storybook -p 6006 -c .storybook"
+    "storybook": "start-storybook -p 6006 -c .storybook",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
   }
 }
